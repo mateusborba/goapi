@@ -1,0 +1,10 @@
+.docker/mysql/*.sock
+.docker/mysql/*.pid
+.docker/mysql/ibdata1
+.docker/mysql/ib_logfile*
+.docker/mysql/mysql-bin.*
+.docker/mysql/auto.cnf
+.docker/mysql/binlog.index
+.docker/mysql/performance_schema/*
+.docker/mysql/mysql/*
+.docker/mysql/sys/*

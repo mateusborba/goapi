@@ -1,0 +1,14 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mateus123
+      MYSQL_DATABASE: goapi
+      MYSQL_PASSWORD: mateus123
+    ports:
+      - "3307:3306"
+    volumes:
+      - .docker/mysql:/var/lib/mysql
